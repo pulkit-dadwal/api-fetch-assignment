@@ -9,9 +9,9 @@ import {
 
 import {
   getShowDetails,
-} from "../services/tvmazeApi";
+} from "../../services/tvmazeApi";
 
-import Navbar from "../components/Navbar/Navbar";
+import Navbar from "../../components/Navbar/Navbar";
 
 function ShowDetails() {
   const { id } = useParams();
